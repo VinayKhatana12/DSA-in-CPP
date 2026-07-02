@@ -4,9 +4,9 @@ class Mobile{
     public:
     int mobileNo;
     string mobileName;
-    Mobile(int no,string name){
-        mobileNo = no;
-        mobileName = name;
+    Mobile(int mobileNo,string mobileName){
+        this->mobileNo = mobileNo;
+        this->mobileName = mobileName;
     }
 };
 int main(){
