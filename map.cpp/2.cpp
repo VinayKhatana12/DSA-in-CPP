@@ -1,6 +1,9 @@
 #include<iostream>
 #include<map>
 using namespace std;
+    int add(int n,int y){
+        
+    }
 int main(){
     string s = "vinay";
     map<char,int> mp;
@@ -10,4 +13,5 @@ int main(){
     for(auto it: mp){
         cout << it.first << " " << it.second << endl;
     }
+    
 }
